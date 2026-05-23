@@ -1,0 +1,48 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+logs/
+
+# Data / large files
+*.json
+*.jsonl
+playground/
+
+# Exceptions: training config JSON files that should be versioned
+!scripts/**/*.json
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+.cache/
+wandb
+output
+
+# Checkpoints
+checkpoints/
+movekd_checkpoints/
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# Local tool artifacts
+.agents/
+.claude/
+.codex
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
