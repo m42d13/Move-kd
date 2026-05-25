@@ -2,6 +2,8 @@
 
 Original repo: [MoVE-KD](https://github.com/hey-cjj/MoVE-KD)
 
+Pretrain data: 558K subset of the LAION-CC-SBU dataset with BLIP captions: [LlaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain)
+
 ### Model:
 - Vision Encoder: [CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336)
 - Teacher Encoder: [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224) 
