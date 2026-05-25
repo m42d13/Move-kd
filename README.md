@@ -7,7 +7,7 @@ Modify `--data_path` for your custom json file.
 
 Modify `--image_folder` for you custom dataset.
 
-Modify `--output_dir' to store the pretrained weights.
+Modify `--output_dir` to store the pretrained weights.
 
 ### Finetune:
     bash Move-kd/scripts/move-kd/finetune_med.sh 
