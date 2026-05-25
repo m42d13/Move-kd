@@ -1,6 +1,6 @@
 # MoVE-KD modified for medical VQA
 
-Original repo: [MoVE-KD](https://arxiv.org/abs/2501.01709)
+Original repo: [MoVE-KD](https://github.com/hey-cjj/MoVE-KD)
 
 ### Model:
 - Vision Encoder: [CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336)
