@@ -1,7 +1,7 @@
 # MoVE-KD modified for medical VQA
 
 ### Pretrain:  
-    bash Move-kd/scripts/move-kd/pretrain_med.sh` 
+    bash Move-kd/scripts/move-kd/pretrain_med.sh 
 
 Modify `--data_path` for your custom json file. 
 
