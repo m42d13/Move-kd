@@ -1,9 +1,11 @@
 # MoVE-KD modified for medical VQA
 
+Original repo: [MoVE-KD](https://arxiv.org/abs/2501.01709)
+
 ### Model:
-- Vision Encoder: CLIP (https://huggingface.co/openai/clip-vit-large-patch14-336)
-- Teacher Encoder: BiomedCLIP (https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224) 
-- LLM: Vicuna-7B (https://huggingface.co/lmsys/vicuna-7b-v1.5)
+- Vision Encoder: [CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336)
+- Teacher Encoder: [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224) 
+- LLM: [Vicuna-7B](https://huggingface.co/lmsys/vicuna-7b-v1.5)
 
 ### Pretrain:  
     bash Move-kd/scripts/move-kd/pretrain_med.sh 
